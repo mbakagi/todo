@@ -1,0 +1,12 @@
+<div class="container">
+
+    <h3 class="center-text">Updated</h3>
+</div>    
+
+{% extends 'tasks/list.html' %}
+<form method="POST" action="" >
+    {% csrf_token %}
+    {{some_field_in_task}}
+    <input type="update" name="update_task">
+
+</form>

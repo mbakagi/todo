@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  django:
+    image: todo
+    build: ""
+    ports:
+      - 5000:85
+    volumes:
+
+
+        - /docker/vdo/:/etc/vdo/  
+      
